@@ -1,0 +1,179 @@
+/**
+ * @name MOG-AQUATHEME
+ * @author MOG-Developing
+ * @version 1.0.0
+ * @description Smooth. Good. And made for you!
+ * @source https://github.com/MOG-Developing/DISCORD-THEMES
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --avatar-size: 36px;
+    --background-image: url('https://i.imgur.com/KYRBqQa.png');
+    --home-image: url('https://i.imgur.com/9hQlQ9x.gif');
+    --background-solid: #0a1a1f;
+    --background-solid-dark: #071317;
+    --background-solid-darker: #050e11;
+    --accent: 0, 255, 255;
+    --accent-alt: 0, 180, 180;
+    --font-primary: 'Poppins', sans-serif;
+}
+
+* {
+    transition: all 0.3s ease;
+}
+
+.appMount-3lHmkl {
+    background: var(--background-solid) !important;
+}
+
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b3f0ff;
+    --text-normal: #d9f9ff;
+    --text-muted: #8ae6ff;
+    --text-link: #00ffff;
+    --channels-default: #8ae6ff;
+    --interactive-normal: #b3f0ff;
+    --interactive-hover: #00ffff;
+    --interactive-active: #00ffff;
+    --interactive-muted: #4d8a99;
+    --background-primary: var(--background-solid);
+    --background-secondary: var(--background-solid-dark);
+    --background-secondary-alt: var(--background-solid-darker);
+    --background-tertiary: var(--background-solid-darker);
+    --background-accent: rgba(var(--accent), 0.1);
+    --background-floating: var(--background-solid-darker);
+    --background-modifier-hover: rgba(var(--accent), 0.2);
+    --background-modifier-active: rgba(var(--accent), 0.3);
+    --background-modifier-selected: rgba(var(--accent), 0.4);
+    --background-mentioned: rgba(var(--accent), 0.1);
+    --background-mentioned-hover: rgba(var(--accent), 0.2);
+    --background-message-hover: rgba(var(--accent), 0.05);
+    --scrollbar-thin-thumb: rgba(var(--accent), 0.5);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: rgba(var(--accent), 0.5);
+    --scrollbar-auto-track: transparent;
+}
+
+.container-1D34oG {
+    background: var(--background-solid-dark) !important;
+}
+
+.guilds-2JjMmN {
+    background: var(--background-solid-darker) !important;
+}
+
+.channel-2QD9_O.selected-1sf9UK .content-1x5b-n {
+    background: rgba(var(--accent), 0.3) !important;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(var(--accent), 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(var(--accent), 0); }
+    100% { box-shadow: 0 0 0 0 rgba(var(--accent), 0); }
+}
+
+.avatar-2Vndt_ {
+    border-radius: 50%;
+    border: 2px solid rgba(var(--accent), 0.5);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+
+.buttons-3JBrkn button {
+    border-radius: 20px !important;
+    background: rgba(var(--accent), 0.2) !important;
+}
+
+.buttons-3JBrkn button:hover {
+    background: rgba(var(--accent), 0.4) !important;
+    transform: scale(1.05);
+}
+
+.message-2qnXI6 {
+    border-radius: 12px !important;
+    margin-bottom: 8px !important;
+}
+
+.message-2qnXI6:hover {
+    background: rgba(var(--accent), 0.05) !important;
+    transform: translateX(5px);
+}
+
+.mentioned-xhSam7 .message-2qnXI6 {
+    background: rgba(var(--accent), 0.1) !important;
+    animation: mentioned 1s ease;
+}
+
+@keyframes mentioned {
+    0% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+.theme-dark .searchBar-3dMhjb {
+    background: rgba(var(--accent), 0.1) !important;
+    border: 1px solid rgba(var(--accent), 0.3) !important;
+}
+
+.theme-dark .searchBar-3dMhjb:hover {
+    background: rgba(var(--accent), 0.2) !important;
+    border: 1px solid rgba(var(--accent), 0.5) !important;
+}
+
+.theme-dark .searchBar-3dMhjb.focused-1xh-wG {
+    background: rgba(var(--accent), 0.3) !important;
+    border: 1px solid rgba(var(--accent), 0.7) !important;
+}
+
+.theme-dark .searchAnswer-3Dz2-q {
+    background: rgba(var(--accent), 0.1) !important;
+}
+
+.theme-dark .searchFilter-2UfsDk {
+    background: rgba(var(--accent), 0.2) !important;
+}
+
+.theme-dark .searchFilter-2UfsDk:hover {
+    background: rgba(var(--accent), 0.3) !important;
+}
+
+.theme-dark .searchFilter-2UfsDk.selected-1sf9UK {
+    background: rgba(var(--accent), 0.4) !important;
+}
+
+.theme-dark .searchHeader-1r_ZSh {
+    background: rgba(var(--accent), 0.1) !important;
+}
+
+.theme-dark .searchResult-O9NDji {
+    background: rgba(var(--accent), 0.05) !important;
+}
+
+.theme-dark .searchResult-O9NDji:hover {
+    background: rgba(var(--accent), 0.1) !important;
+}
+
+.theme-dark .searchResultMessage-1fxgXl {
+    background: rgba(var(--accent), 0.1) !important;
+}
+
+.theme-dark .searchResultMessage-1fxgXl:hover {
+    background: rgba(var(--accent), 0.2) !important;
+}
+
+.theme-dark .searchResultsWrap-2DKFZp {
+    background: rgba(var(--accent), 0.05) !important;
+}
+
+.theme-dark .searchResultsWrap-2DKFZp:hover {
+    background: rgba(var(--accent), 0.1) !important;
+}
