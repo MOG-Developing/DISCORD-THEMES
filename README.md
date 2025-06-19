@@ -12,7 +12,7 @@
 # Photos:
 
 MOG-AQUATHEME.css:
-![image](https://github.com/user-attachments/assets/eec66c0c-c9e6-46d0-bb70-e8d1d3a6a2e2)
+![image](https://github.com/user-attachments/assets/4df67460-54ce-4ff2-b61b-9511fc6e71ae)
 ![image](https://github.com/user-attachments/assets/532a71bb-0a2d-43ae-bf9b-939f5fbc52e5)
 ![image](https://github.com/user-attachments/assets/deeb7c70-ddd7-47e5-9250-72f872758e47)
 MOG-AQUATHEME.css is smooth, animations.
