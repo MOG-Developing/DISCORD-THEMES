@@ -11,14 +11,14 @@
 
 # Photos:
 
-MOG-AQUATHEME.css:
+**MOG-AQUATHEME.css:**
 
 ![image](https://github.com/user-attachments/assets/4b5796f9-afa9-41be-847f-c3166f3e54cd) ![image](https://github.com/user-attachments/assets/532a71bb-0a2d-43ae-bf9b-939f5fbc52e5) ![image](https://github.com/user-attachments/assets/7bc5e2f0-18e8-481d-a85c-c218153412dc)
 
 MOG-AQUATHEME.css is smooth, has nice animations.
 
-MOG-VERDANTTHEME.css:
+**MOG-VERDANTTHEME.css:**
 
-![Screenshot 2025-06-19 190213](https://github.com/user-attachments/assets/f5a5ed2b-5e3d-4ee6-942b-67cf722a7926) ![image](https://github.com/user-attachments/assets/a2930b55-2356-4426-9556-dea024bb79e5)
+![Screenshot 2025-06-19 190213](https://github.com/user-attachments/assets/f5a5ed2b-5e3d-4ee6-942b-67cf722a7926) ![image](https://github.com/user-attachments/assets/a2930b55-2356-4426-9556-dea024bb79e5) ![image](https://github.com/user-attachments/assets/656db90a-108d-4e3f-8f5d-3dc85f9a9ec1)
 
 MOG-VERDANTTHEME.css is a smoother version than AQUA. It has more animations, green.
